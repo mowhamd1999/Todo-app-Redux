@@ -1,0 +1,57 @@
+.todo-lis{
+    display: flex;
+}
+.todo-li{
+    display: inline-grid;
+    list-style: none;
+    text-align: left;
+    margin: 40px;
+    padding: 15px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+.todo-li-btn{
+    text-align: right;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.todo-textarea{
+    background-color: white;
+    color: black;
+    font-size: 1.1rem;
+    border: none;
+    width: 300px;
+    height: 70px;
+}
+.btn{
+    background-color: white;
+    font-size: 1.5rem;
+    border: none;
+
+}
+.todo-span{
+    font-size: 1rem;
+    color: rgb(194, 194, 194);
+    background-color: white;
+}
+.todo-title-btn{
+    margin-right: 15px;
+    margin-left: 15px;
+    height: 35px;
+    width: 100px;
+    margin-top: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.todo-icon{
+    background-color: white;
+}
