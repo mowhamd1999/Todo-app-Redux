@@ -1,11 +1,12 @@
 .todo-lis{
     display: flex;
+    flex-wrap: wrap;
 }
 .todo-li{
     display: inline-grid;
     list-style: none;
     text-align: left;
-    margin: 40px;
+    margin: 30px;
     padding: 15px;
     background-color: white;
     border: none;
@@ -54,4 +55,7 @@
 }
 .todo-icon{
     background-color: white;
+}
+.li{
+    width: 100%;
 }

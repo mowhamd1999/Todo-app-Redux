@@ -22,7 +22,7 @@ const mapDispatchToProps = (dispatch) => {
 const DisplayTodos = (props) => {
   const [sort, setSort] = useState("active");
   return (
-    <div>
+    <div className="li">
       <div className="todo-title">
         <button className="todo-title-btn" onClick={() => setSort("active")}>Active</button>
         <button className="todo-title-btn" onClick={() => setSort("completed")}>Completed</button>
