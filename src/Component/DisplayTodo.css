@@ -1,6 +1,7 @@
 .todo-lis{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .todo-li{
     display: inline-grid;
